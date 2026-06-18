@@ -3,9 +3,7 @@
 // FASE 1: Primera línea
 console.log("Iniciando laboratorio...");
 
-
 // FASE 2: Variables y Literales Primitivos
-
 const empresa = "JSLab";
 
 let edad = 20;
@@ -19,7 +17,6 @@ console.log("¿Es estudiante?:", esEstudiante);
 console.log("Tipo de esEstudiante:", typeof esEstudiante);
 
 // FASE 3: Literales de Cadena y Plantillas
-
 
 let nombre = " Duver Rolando ";
 let saludo = `Hola ${nombre}, tienes ${edad} años.`;
@@ -44,7 +41,6 @@ if (servicio === "desarrollo web") {
 }
 
 let opcion = 2;
-
 switch (opcion) {
     case 1:
         console.log("Inicio");
