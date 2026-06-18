@@ -33,6 +33,35 @@ Estado: Laboratorio de JavaScript activo
 
 console.log(descripcionEmpresa);
 
+// FASE 4: Control de Flujo
+
+
+let servicio = "desarrollo web";
+
+if (servicio === "desarrollo web") {
+    console.log("JSLab puede desarrollar tu página web.");
+} else {
+    console.log("Servicio no disponible.");
+}
+
+let opcion = 2;
+
+switch (opcion) {
+    case 1:
+        console.log("Inicio");
+        break;
+
+    case 2:
+        console.log("Servicios");
+        break;
+
+    case 3:
+        console.log("Contacto");
+        break;
+
+    default:
+        console.log("Opción no válida.");
+}
 
 
 
