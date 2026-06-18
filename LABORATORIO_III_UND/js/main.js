@@ -35,7 +35,6 @@ console.log(descripcionEmpresa);
 
 // FASE 4: Control de Flujo
 
-
 let servicio = "desarrollo web";
 
 if (servicio === "desarrollo web") {
@@ -63,5 +62,10 @@ switch (opcion) {
         console.log("Opción no válida.");
 }
 
+// FASE 5: Bucles e Iteración
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`Iteración número: ${i}`);
+}
 
 
