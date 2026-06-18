@@ -18,3 +18,21 @@ console.log("Tipo de edad:", typeof edad);
 console.log("¿Es estudiante?:", esEstudiante);
 console.log("Tipo de esEstudiante:", typeof esEstudiante);
 
+// FASE 3: Literales de Cadena y Plantillas
+
+
+let nombre = " Duver Rolando ";
+let saludo = `Hola ${nombre}, tienes ${edad} años.`;
+
+console.log(saludo);
+let descripcionEmpresa = `
+Empresa: ${empresa}
+Servicio: Desarrollo de aplicaciones web
+Estado: Laboratorio de JavaScript activo
+`;
+
+console.log(descripcionEmpresa);
+
+
+
+
